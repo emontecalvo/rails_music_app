@@ -1,0 +1,19 @@
+<h1>New Album</h1>
+
+
+
+  <p>
+    <label>Name
+    <input type="text" name="album[name]" value="<%= @album.name %>">
+    </label>
+        <input type="text" name="album[name]" value="<%= @album.name %>">
+    </label>
+        </label>
+        <input type="integer" name="album[year]" value="<%= @album.year %>">
+    </label>
+    <label>Studio or LIVE?
+   <%= f.radio_button :autolyse, false, :checked => true %></label>
+  </p>
+
+  <input type="submit">
+</form>
